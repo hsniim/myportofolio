@@ -1,0 +1,359 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+body {
+    background-color: rgb(246, 247, 251);
+    font-family: "Poppins", sans-serif;
+    align-items: center;
+    margin: auto auto;
+}
+  
+.navbar {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    background-color: white;
+    justify-content: space-between;
+    width: 85vw;
+    height: 8vh;
+    top: 0.3vh;
+    margin-top: 3vh;
+    margin-left: 7vw;
+    margin-right: 7vw;
+    padding: 0vh 0vw;
+    border-radius: 10px;
+    box-shadow: 0px 10px 85px rgba(0, 0, 0, 0.1);
+}
+
+.navicon {
+    display: flex;
+    margin-left: 1.5vw;
+    font-weight: 600;
+    font-size: 1.7vw;
+}
+
+.navlink {
+    display: flex;
+}
+
+.navlink ul {
+    display: flex;
+}
+
+.navlink li, .navlink a {  
+    padding: 0.3vh 0.3vw;
+    margin: 0vh 0.3vw;
+    color: black;
+    font-size: 1.3vw;
+    font-weight: 500;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.navlink2 {
+      display: flex;
+}
+
+.navlink2 li, .navlink2 a {
+      color: black;
+      margin-right: 1vw;
+      padding: 0.3vh 0.3vw;
+      font-size: 1.3vw;
+      font-weight: 500;
+      list-style-type: none;
+      text-decoration: none;
+}
+
+.navlink a:hover, .navlink2 a:hover {
+    border-bottom: 0.4vh black solid;
+    transition: linear 0.2s;
+}
+
+.ar1 {
+    display: flex;
+    max-width: 100vw;
+    max-height: 100vh;
+    width: 100vw;
+    height: 100vh;
+}
+
+.ghero {
+    text-align: left;
+    width: 60vw;
+    height: 100vh;
+    max-width: 60vw;
+    max-height: 100vh;
+    padding-left: 5vw;
+    padding-top: 25vh;
+}
+
+.ghero p {
+    font-size: 1.3vw;
+    margin: 0 0;
+    padding-top: 1vh;
+    text-align: left;
+    width: 40vw;
+}
+
+.subhero span {
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+}
+
+.minhero {
+    font-weight: 500;
+    font-size: 1.5vw;
+    margin: 0 0;
+}
+
+.subhero {
+    font-weight: 600;
+    font-size: 2vw;
+    margin: 0 0;
+}
+
+.hero {
+    font-weight: 600;
+    font-size: 3vw;
+    margin: 0 0;
+    width: 70vh;
+}
+
+.exb {
+    display: flex;
+    padding-top: 3vh;
+}
+
+.exb1 {
+    background-color: black;
+    margin: 0.5vh 0.5vw;
+    margin-left: 0;
+    padding: 1.3vh 1.3vw;
+    border: solid black 0.2vw;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+.exb2 {
+    background-color: rgb(12, 203, 63);
+    margin: 0.5vh 0.5vw;
+    padding: 1.3vh 1.3vw;
+    border: solid rgb(12, 203, 63) 0.2vw;
+    border-radius: 10px;
+    color: black;
+    font-weight: 500;
+    font-size: 1.4vw;
+    text-decoration: none;
+}
+
+.exb1:hover, .exb2:hover {
+    transition: linear 0.2s;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.heropic {
+    height: 100vh;
+    max-height: 100vh;
+}
+
+.heropic img {
+    margin-top: 13vh;
+}
+
+.ar2 {
+    width: 100vw;
+    height: 100vh;
+    max-width: 100vw;
+    max-height: 100vh;
+}
+
+.prhead {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-size: 1.5vw;
+    font-weight: 600;
+}
+
+.prhead span {
+    color: rgb(21, 102, 255);
+}
+
+.prpag {
+    display: flex;
+    margin: 0 0;
+}
+
+.prpag1, .prpag2 {
+    background-color: white;
+    padding: 5vh 5vw;
+    margin-top: 3vh;
+    margin-bottom: 0vh;
+    margin-left: 13vh;
+    margin-right: 13vh;
+    width: 35vw;
+    border-radius: 15px;
+    transition: linear 0.2s;
+}
+
+.prpag1:hover, .prpag2:hover {
+    box-shadow: 0px 0px 50px rgba(118, 116, 116, 0.1);
+    transition: linear 0.2s;
+}
+
+.prpag1 h2, .prpag2 h2 {
+    margin-bottom: 2.7vh;
+    margin-top: 0;
+    font-size: 2vw;
+    font-weight: 600;
+}
+
+.prpag1bod1, .prpag1bod2, .prpag1bod3, .prpag2bod1, .prpag2bod2, .prpag2bod3 {
+    background-color: rgb(246, 247, 251);
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    padding: 1.3vh 1.3vw;
+}
+
+.prpag1bod1 p, .prpag1bod2 p, .prpag1bod3 p, .prpag2bod1 p, .prpag2bod2 p, .prpag2bod3 p {
+    font-size: 1vw;
+    font-weight: 400;
+    margin: 0 0;
+}
+
+.prpag1bod1 h3, .prpag1bod2 h3, .prpag1bod3 h3, .prpag2bod1 h3, .prpag2bod2 h3, .prpag2bod3 h3 {
+    font-size: 1.3vw;
+    font-weight: 500;
+    margin: 0 0;
+}
+
+.prjbut {
+    margin: 0 0;
+    padding: 10vh 10vw;
+    text-align: center;
+    font-size: 1.3vw;
+    font-weight: 500;
+}
+
+.prjbut a {
+    background-color: black;
+    color: white;
+    font-size: 1.2vw;
+    text-decoration: none;
+    border-radius: 10px;
+    border: solid 0.2vw black;
+    padding: 1vh 1vw;
+    margin: 0 0;
+}
+
+.prjbut a:hover {
+    transition: linear 0.2s;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.prjbut svg {
+    width: 1vw;
+}
+
+.ar3 {
+    width: 100vw;
+    height: 50vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    margin-top: 20vh;
+}
+
+.abpag {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    margin: 5vh 5vw;
+    padding: 0 0;
+    border-radius: 15px;
+}
+
+.abpag:hover {
+    box-shadow: 0px 0px 50px rgba(118, 116, 116, 0.1);
+    transition: linear 0.2s;
+}
+
+.abpag h1 {
+    color: white;
+    padding: 5vh 5vw;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-size: 3vw;
+    font-weight: 500;
+    text-align: left;
+}
+
+.abpag p {
+    background-color: white;
+    border-top-right-radius: 15px;
+    border-top-left-radius: 0px;
+    border-bottom-right-radius: 15px;
+    border-bottom-left-radius: 0px;
+    padding: 5vh 5vw;
+    margin: 0vh 0vw;
+    text-align: left;
+}
+
+.ar4 {
+    width: 100vw;
+    height: 20vh;
+    max-width: 100vw;
+    max-height: 100vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+    background-color: white;
+}
+
+.conhead h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0vh 0vw;
+    font-weight: 500;
+    font-size: 1.5vw;
+}
+
+.concon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3vh 5vw;
+}
+
+.inst a , .inst svg, .linkedin a, .linkedin svg, .gmail a, .gmail img, .github a, .github img {
+    width: 5vw;
+    height: 5vh;
+}
+
+.gmail a, .gmail img, .github a, .github img, .whats a, .whats img {
+    width: 4vw;
+    height: 4vh;
+    margin-left: 0.3vw;
+    margin-right: 0.3vw;
+}
+
+.fotex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 3vw;
+    padding-right: 3vw;
+    margin-top: 0vh;
+    margin-bottom: 0vh;
+}
+
+.fotb1 {
+    font-weight: 600;
+}
