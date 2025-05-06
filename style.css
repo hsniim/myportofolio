@@ -80,7 +80,7 @@ body {
     text-align: left;
     width: 60vw;
     height: 100vh;
-    max-width: 60vw;
+    max-width: 50vw;
     max-height: 100vh;
     padding-left: 5vw;
     padding-top: 25vh;
@@ -157,12 +157,15 @@ body {
 }
 
 .heropic {
-    height: 100vh;
+    height: 80vh;
     max-height: 100vh;
+    margin-left: 7vw;
 }
 
 .heropic img {
-    margin-top: 13vh;
+    margin-top: 20vh;
+    width: 30vw;
+    border-radius: 25px;
 }
 
 .ar2 {
