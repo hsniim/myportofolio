@@ -1,10 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+html {
+    scroll-behavior: smooth;
+}
 
 body {
     background-color: rgb(246, 247, 251);
     font-family: "Poppins", sans-serif;
     align-items: center;
     margin: auto auto;
+    overflow-x: hidden;
 }
   
 .navbar {
@@ -33,6 +37,10 @@ body {
 
 .navlink {
     display: flex;
+}
+
+.navlinkmobile {
+    display: none;
 }
 
 .navlink ul {
@@ -70,10 +78,12 @@ body {
 
 .ar1 {
     display: flex;
-    max-width: 100vw;
-    max-height: 100vh;
     width: 100vw;
     height: 100vh;
+    padding-top: 5vh;
+    /* tambahkan ini */
+    box-sizing: border-box;
+    /* penting agar padding tidak menambah total tinggi */
 }
 
 .ghero {
@@ -82,7 +92,7 @@ body {
     height: 100vh;
     max-width: 50vw;
     max-height: 100vh;
-    padding-left: 5vw;
+    padding-left: 5.5vw;
     padding-top: 25vh;
 }
 
@@ -156,6 +166,10 @@ body {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.exb1:active, .exb2:active {
+    transform: scale(0.90);
+}
+
 .heropic {
     height: 80vh;
     max-height: 100vh;
@@ -165,6 +179,7 @@ body {
 .heropic img {
     margin-top: 20vh;
     width: 30vw;
+    height: auto;
     border-radius: 25px;
 }
 
@@ -260,11 +275,15 @@ body {
     box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
 }
 
+.prjbut:active {
+    transform: scale(0.90);
+}
+
 .prjbut svg {
     width: 1vw;
 }
 
-.ar4 {
+.ar3 {
     width: 100vw;
     height: 20vh;
     max-width: 100vw;
@@ -314,4 +333,145 @@ body {
 
 .fotb1 {
     font-weight: 600;
+}
+
+@media screen and (max-width: 720px) {
+
+    .navbar {
+        height: 5vh;
+        border-radius: 8px;
+    }
+
+    .navicon {
+        font-size: 1.7vw;
+    }
+
+    .navlink li, .navlink a {
+            padding: 0.3vh 0.3vw;
+            margin: 0vh 0.3vw;
+            font-size: 1.7vw;
+            font-weight: 500;  
+        }
+
+    .navlink2 li, .navlink2 a {
+        margin-right: 1vw;
+        padding: 0.3vh 0.3vw;
+        font-size: 1.7vw;
+        font-weight: 500;
+        list-style-type: none;
+        text-decoration: none;     
+    }
+
+    .navlink a:hover, .navlink2 a:hover {
+        border-bottom: 0.2vh black solid;
+        transition: linear 0.2s;   
+    }
+
+    .ar1 {
+        flex-direction: column;
+        /* Susun elemen ke bawah */
+        height: auto;
+        /* Biarkan tinggi menyesuaikan konten */
+        /* Sesuaikan padding atas */
+        align-items: center;
+        /* Tengahkan elemen secara horizontal */
+    }
+
+    .ghero {
+        order: 2;
+        width: 90%;
+        /* Lebar area teks */
+        height: auto;
+        max-width: 90%;
+        padding: 5vw;
+        padding-top: 5vh;
+        text-align: left;
+        /* Tengahkan teks */
+    }
+
+    .minhero {
+        font-size: 3vw;
+        /* Sesuaikan ukuran font */
+    }
+
+    .subhero {
+        font-size: 4vw;
+        /* Sesuaikan ukuran font */
+    }
+
+    .hero {
+        font-size: 5vw;
+        /* Sesuaikan ukuran font */
+        width: 80%;
+        /* Lebar teks */
+    }
+
+    .ghero p {
+        font-size: 3vw;
+        /* Sesuaikan ukuran font */
+        width: 90%;
+    }
+
+    .exb {
+        width: 100%;
+        display: flex;
+        justify-content: left;
+        padding-top: 1vh;
+    }
+
+    .exb a {
+        width: 30vw;
+        height: auto;
+        /* Lebar tombol */
+        margin: 1vh 0vw;
+        font-size: 3vw;
+        text-align: center;
+    }
+
+    .exb1 {
+        display: none;
+    }
+
+    .heropic {
+        width: 90%;
+        height: auto;
+        max-height: none;
+        margin-left: 0;
+        margin-top: 5vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .heropic img {
+        width: 70%;
+        height: auto;
+        margin-top: 0;
+        border-radius: 50% 38% 72% 45% ;
+        border: black solid 5px;
+    }
+}
+
+.ar2 {
+
+}
+
+@media screen and (max-width: 480px) {
+    body {
+        background-color: aqua;
+    }
+
+    .ar1 {
+        flex-direction: column;
+    }
+
+    .navlinkdesk li{
+        display: none;
+    }
+
+    .navlinkmobile {
+        display: flex;
+        color: black;
+        font-size: 2vw;
+    }
 }
